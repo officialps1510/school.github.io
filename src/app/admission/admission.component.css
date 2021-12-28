@@ -1,0 +1,14 @@
+.banner{
+background-image: url(https://i.ibb.co/bKnCsB3/Screenshot-147.png);
+height: 140px;
+margin-right: 20px;
+padding:0px ;
+width: 100%;
+}
+.container{
+    margin: 30px;
+    margin-bottom: 96px;
+}
+.container ul {
+    list-style-type:circle ;
+}

@@ -1,0 +1,110 @@
+<div class="col-sm-12">
+
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)" class="Myform">
+
+        <div class="form-group ">
+            <label>Candidate's First Name:</label>
+            <input type=" text " required class="form-control " name="Fname " ngModel #Fname="ngModel"
+                placeholder="Enter First Name ">
+            <span class="field-error" *ngIf="Fname.invalid && Fname.touched">*Field is required </span>
+
+        </div><br>
+        <div class="form-group ">
+            <label>Candidate's Last Name:</label>
+            <input type="text " required class="form-control " name="Lname " ngModel #Lname="ngModel"
+                placeholder="Enter Last Name ">
+            <span class="field-error" *ngIf="Lname.invalid && Lname.touched">*Field is required </span>
+
+        </div><br>
+        <div class="form-group">
+            <label>Candidate's Date Of Birth:</label>
+
+            <input type="date" required class="form-control" name="Birthdate" ngModel #BirthDate="ngModel"
+                placeholder="Enter First Name ">
+            <span class="field-error" *ngIf="BirthDate.invalid && BirthDate.touched">*Field is required </span>
+        </div><br>
+        <div class="form-group ">
+            <label>Email address</label>
+            <input type="email " required class="form-control " name="Email " ngModel #email="ngModel"
+                placeholder="Enter email ">
+        </div><br>
+        <div class="form-group ">
+            <label>Mobile No:</label>
+            <input type="text " required class="form-control " name="MobileNo " ngModel #MobileNo="ngModel"
+                placeholder="Enter MobileNo ">
+            <span class="field-error" *ngIf="MobileNo.invalid && MobileNo.touched">*Field is required </span>
+
+        </div>
+        <div class="form-group ">
+            <label>Age:</label>
+            <input type="number " required class="form-control " name="Age " ngModel #Age="ngModel"
+                placeholder="Enter Your Age ">
+            <span class="field-error" *ngIf="Age.invalid && Age.touched">*Field is required </span>
+
+        </div>
+        <div class="form-group">
+            <label>Choose Your Subject:</label>
+        <select required class="form-control " name="Subject" ngModel #Subject="ngModel" >
+            
+            <option >Maths</option>
+            <option >Bio</option>
+            <option >Agriculture</option>
+            <option >Commerce</option>
+            <option >Arts</option>
+          </select>
+          <span class="field-error" *ngIf="Subject.invalid && Subject.touched">*Field is required </span>
+
+        </div>  
+        <div class="form-group">
+            <label>Gender:</label>
+        <select required class="form-control " name="Gender" ngModel #Gender="ngModel" >
+            
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+           
+          </select>
+          <span class="field-error" *ngIf="Gender.invalid && Gender.touched">*Field is required </span>
+
+        </div>
+        <div class="form-group ">
+            <label>Father Name</label>
+            <input type="text " required class="form-control " name="FatherName " ngModel #Father="ngModel"
+                placeholder="Enter name ">
+            <span class="field-error" *ngIf="Father.invalid && Father.touched">*Field is required </span>
+
+        </div><br>
+        <div class="form-group ">
+            <label>Mobile No:</label>
+            <input type="text " required class="form-control " name="MobileNo " ngModel #MobileNo="ngModel"
+                placeholder="Enter MobileNo ">
+            <span class="field-error" *ngIf="MobileNo.invalid && MobileNo.touched">*Field is required </span>
+        </div>
+        <div class="form-group ">
+            <label>Mother Name</label>
+            <input type="text " required class="form-control " name="MotherName" ngModel #Mother="ngModel"
+                placeholder="Enter name ">
+            <span class="field-error" *ngIf="Mother.invalid && Mother.touched">*Field is required </span>
+
+        </div><br>
+        <div class="form-group ">
+            <label>Mobile No:</label>
+            <input type="text " required class="form-control " name="MobileNo " ngModel #MobileNo="ngModel"
+                placeholder="Enter MobileNo ">
+            <span class="field-error" *ngIf="MobileNo.invalid && MobileNo.touched">*Field is required </span>
+
+
+        </div>
+        
+      
+        <div class="add1 col-sm-4">
+            <label> Permanent Add:</label><br>
+            <input type="text" class="text">
+        </div>
+        <div class="add2 col-sm-6">
+            <label>Local Add:</label><br>
+            <input type="text" class="text2">
+        </div>
+    </form>
+</div>
+
+<button class="btn btn-primary ">Submit</button>

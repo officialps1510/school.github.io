@@ -1,0 +1,60 @@
+input.ng-invalid{
+    border-left: 5px solid red;
+}input.ng-valid{
+    border-left: 5px solid green;
+}select.ng-invalid{
+    border-left: 5px solid red;
+}select.ng-valid{
+    border-left: 5px solid green;
+}
+.field-error{
+    color: red;
+}
+/* .form-group{
+    display: inline;
+} */
+/* #Fname{
+    display: flex;
+} */
+.Myform{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+.form-group{
+    display: inline-block;
+    /* width: 50%; */
+    /* margin-right: 50px; */
+    /* padding: 12px; */
+    margin: 14px;
+    width: 35%;
+    /* line-height: 50px; */
+    /* min-height: 30px; */
+    /* max-width: 50%; */
+}
+
+.text{
+    height: 100px;
+    width: 391px;
+    margin: 2px;
+   border-color: red;
+   display: inline-block;
+}.text2{
+    height: 100px;
+    width: 391px;
+    margin: 2px;
+ 
+   border-color: red;
+   display: inline-block;
+}
+.add1{
+    padding-left: 10px;
+}
+.add2{
+    padding-left: 60px;
+}
+.btn-primary{
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}

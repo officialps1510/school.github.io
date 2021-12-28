@@ -1,0 +1,29 @@
+.container{
+    margin-bottom: 72px;
+}
+.container h1{
+    padding: 20px;
+    color: lightsteelblue;
+}
+.container h3{
+    padding: 20px;
+    text-align: center;
+    color: lightsteelblue;
+}
+.subjects{
+    display: inline-flex;
+    width: 65%;
+    
+}
+.maths h4{
+margin-left: 70px;
+}
+.commerce h4{
+    margin-left: 50px;
+}.agriculture h4{
+    margin-left: 50px;
+}.bio h4{
+    margin-left: 70px;
+}.arts h4{
+    margin-left: 70px;
+}
